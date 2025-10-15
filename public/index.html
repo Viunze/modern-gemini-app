@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern AI Chat (Gemini Style)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h1>Gemini Lite Chat ✨</h1>
+            <p>Powered by Gemini 2.5 Flash API</p>
+        </header>
+
+        <main id="chat-messages">
+            <div class="message system-message">
+                Selamat datang! Saya adalah AI yang siap membantu Anda. Silakan ketik pertanyaan Anda di bawah.
+            </div>
+        </main>
+
+        <div class="input-area">
+            <input type="text" id="prompt-input" placeholder="Tanyakan apa pun...">
+            <button id="send-button" disabled>
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
